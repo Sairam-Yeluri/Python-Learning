@@ -5,3 +5,16 @@ sum = 0
 for i in l:
     sum = sum + i
 print("Sum of array is",sum)
+
+print("------------------------------")
+
+
+def sum(k):
+    sum = 0
+    for i in k:
+        sum = sum + i
+    return sum
+
+
+p = sum(l)
+print("Sum of elements is",p)
