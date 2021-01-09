@@ -24,34 +24,26 @@ for i in range(n):
     print()
 print()
 for i in range(n):
-    for j in range(n):
-        if i==n-1 or j ==n-1:
-            print(" * ",end="")
-        else:
-            print("   ",end="")
+    for j in range(n,i,-1):
+        print("   ",end="")
+    for k in range(i+1):
+        print(" * ",end="")        
     print()
-print()
 
 print("\n--------------------------\n")
 
-k = 2*n - 2
-  
-for i in range(0, n): 
-      
-    # inner loop to handle number spaces 
-    # values changing acc. to requirement 
-    for j in range(0, k): 
-        print(end=" ") 
-      
-    # decrementing k after each loop 
-    k = k - 1
-      
-    # inner loop to handle number of columns 
-    # values changing acc. to outer loop 
-    for j in range(0, i+1): 
-          
-        # printing stars 
-        print("* ", end="") 
-      
-    # ending line after each row 
-    print("\r") 
+p = 1
+for i in range(n,0,-1):
+    for j in range(i,0,-1):
+        print("  ",end="")
+    print(" *"*p)
+    p = p+2
+
+print()
+
+d = (2*n)-1
+for i in range(n,0,-1):
+    for j in range(i,n):
+        print("  ",end="")
+    print(" *"*d)
+    d = d-2

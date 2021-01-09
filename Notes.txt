@@ -4,7 +4,7 @@
 {Dictionary} is a collection which is unordered and changeable. No duplicate members.
  ~, & ,| ,^,<<,>>  are BitWise Operators (00011011)
  math.ceal,math.floor
- math.pi,math.e
+ math.pi,math.e are constants
 
 import math as m
 m.sqrt(25)
@@ -15,6 +15,8 @@ i+=1 simlar to i = i+1
 
 pass: where you dont want to do anything or dont know what to do
 
+Concepts: 
+*******Arrays******
 
 Programs:
 Patterns.py
