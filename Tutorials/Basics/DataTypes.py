@@ -49,3 +49,10 @@ print("-------------------------------------------------------------------")
 
 o = {1,2.0,3.2,"Four","Five"}       #Sets. Cant be added new elements
 print("This is a set:", o," and Id is",id(o))
+
+print("-------------------------------------------------------------------")
+
+import array
+arr1 = array.array("i",[1,2,-3,4,5])  # 'i' (integer) accepts both positive and negative values 
+
+print("Array is: ",arr1)

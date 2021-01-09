@@ -46,4 +46,27 @@ for x in l:
         pass
         '''If there is no condition. Then we write pass.
         Code after 'Pass' will execute everytime.'''
-        
+
+print("-------------------------------------------------------------------")
+
+e =30
+for x in l:
+    if x%e ==0:
+        print("Element Found",x) #Returns 'first found' statement that is divisible by 30
+        break
+else:
+    print("Element Not Found")
+
+print("Bye")
+
+print("")
+
+e2 = 90
+for x in l:
+    if x%e2 ==0:
+        print("Element Found",x) 
+        break
+else:
+    print("Element Not Found")  #Returns no value only when elemengt not found
+
+print("Bye")

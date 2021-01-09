@@ -9,3 +9,8 @@ print("Integer",arr1)
 print("Non negative integer",arr2)
 print("Float",arr3)
 print("Double",arr4)
+
+print("---------------------------------")
+
+print("Buffer of array is:",arr1.buffer_info(),"                tupple(Address,size)")
+'''We have append, remove, reverse functions'''

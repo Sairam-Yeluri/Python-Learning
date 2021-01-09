@@ -2,6 +2,23 @@
 (Tuple) is a collection which is ordered and unchangeable. Allows duplicate members.
 {Set} is a collection which is unordered and unindexed. No duplicate members.
 {Dictionary} is a collection which is unordered and changeable. No duplicate members.
+ ~, & ,| ,^,<<,>>  are BitWise Operators (00011011)
+ math.ceal,math.floor
+ math.pi,math.e
+
+import math as m
+m.sqrt(25)
+
+for i in range(11,2,-2):
+
+i+=1 simlar to i = i+1
+
+pass: where you dont want to do anything or dont know what to do
+
+
+Programs:
+Patterns.py
+
 8.py
 10.py
 11.py
