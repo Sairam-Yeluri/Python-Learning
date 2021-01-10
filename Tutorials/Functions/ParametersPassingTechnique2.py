@@ -23,7 +23,7 @@ print("-------------------------------------")
 
 print("Variable length Keyword Argument")
 
-def get_details(**kwarg):
+def get_details(**kwarg):   #takes Keyword and values
     print("Keyword arguments are",kwarg)
 
 get_details(name="sai", email = "sai@yeluri.com", age = 24, dob = "08-02-1997")

@@ -56,3 +56,12 @@ import array
 arr1 = array.array("i",[1,2,-3,4,5])  # 'i' (integer) accepts both positive and negative values 
 
 print("Array is: ",arr1)
+
+print("-------------------------------------------------------------------")
+
+k = bin(25)
+print("Binary Format of is",k)
+
+print ("Add '0b' before a binary number. we get the decimal format as:",0b11001)
+print("Similarly")
+print(oct(25),hex(25))

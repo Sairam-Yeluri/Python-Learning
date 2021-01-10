@@ -1,4 +1,6 @@
-import array
+import array #or 
+from array import *
+
 arr1 = array.array("i",[1,2,-3,4,5])  # 'i' (integer) accepts both positive and negative values 
 arr2 = array.array("I",[1,2,3,4,5]) # 'I' wont accept negative value
 

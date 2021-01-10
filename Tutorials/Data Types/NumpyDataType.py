@@ -13,3 +13,5 @@ print("2D Reshaped Array is:",arr2)
 
 arr3 = arr1.reshape(3,2,2)
 print("2D Reshaped Array is:",arr3)
+
+'''XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX'''

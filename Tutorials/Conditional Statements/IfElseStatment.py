@@ -9,6 +9,7 @@ else:
 '''
 num1 = 10
 num2 = 20
+
 if num1>num2:
     print(num1,"is Bigger")
 elif num1<num2:
@@ -16,10 +17,14 @@ elif num1<num2:
 else:
     print("Both are same")
 
+print("\n----------------------------\n")
+
 if 1:       #Opposite is 0,None
     print("If is printed")
 else:
     print("Else is printed")
+
+print("\n----------------------------\n")
 
 if 'a':     #Opposite is 0,None
     print('''String "a" is also considered''')
