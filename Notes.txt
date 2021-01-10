@@ -17,6 +17,9 @@ pass: where you dont want to do anything or dont know what to do
 
 Concepts: 
 *******Arrays******
+https://www.youtube.com/watch?v=NYPKbmE0H6E&ab_channel=Telusko
+Numpy
+Matrx in Python
 
 Programs:
 Patterns.py
