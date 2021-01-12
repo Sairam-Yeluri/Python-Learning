@@ -9,7 +9,7 @@ def rightrotate(arr,n):
         l =len(arr)
         temp = arr[l-1]
         for j in range(1,l):
-            arr[-j] =arr[-j-1]
+            arr[len-j] =arr[len-j-1]
         arr[0]=temp
     return arr
 

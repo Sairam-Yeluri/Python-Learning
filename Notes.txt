@@ -3,6 +3,7 @@
 {Set} is a collection which is unordered and unindexed. No duplicate members.
 {Dictionary} is a collection which is unordered and changeable. No duplicate members.
  ~, & ,| ,^,<<,>>  are BitWise Operators (00011011)
+
  math.ceal,math.floor
  math.pi,math.e are constants
 
@@ -12,6 +13,8 @@ m.sqrt(25)
 for i in range(11,2,-2):
 
 i+=1 simlar to i = i+1
+
+lst.sort() sorts list from small to large
 
 pass: where you dont want to do anything or dont know what to do
 
@@ -26,5 +29,5 @@ map()
 reduce()
 
 Programs:
-Patterns.py
-Function.py
+Array Right/Left Rotation
+Factorial
