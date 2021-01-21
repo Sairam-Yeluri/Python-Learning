@@ -1,0 +1,40 @@
+https://www.w3schools.com/python/python_ref_string.asp
+
+l = len(str)
+
+if l%2 ==0:
+    mid = (l//2)
+else:
+    mid = (l//2) +1
+
+str2 =str1[::-1]    : Reverse of string
+
+s1 = str.find(k)    : find the position from 0
+
+s2 = str.count(k)   : count no of occourances
+
+str1 = str.replace(old,new,n)   :replaces old to new on nth occourance 
+
+str1 = str.split("a")   : splits string where there is an 'a'
+
+str2 = "a".join(str1)   : joins string where there is a
+
+str1 = str.strip()  : Removes whitespaces
+
+s1 = set(str)  : convert to set
+
+from collections import OrderedDict 
+print("In Order line: ")
+print("".join(OrderedDict.fromkeys(str)))
+
+t="" 
+for i in str: 
+    if(i in t): 
+        pass
+    else: 
+        t=t+i 
+print("With Order:",t)
+
+d.update({key: value})
+for i in d:
+    print(i,d[i])
