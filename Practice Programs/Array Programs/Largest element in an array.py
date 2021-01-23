@@ -1,5 +1,3 @@
-print("Python Program to find largest element in an array\n")
-
 l = [10,20,30,40,50,60]
 
 print("Max value is",max(l))

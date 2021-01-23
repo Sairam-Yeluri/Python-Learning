@@ -1,5 +1,3 @@
-print("Python Program for How to check if a given number is Fibonacci number?\n")
-
 n=int(input("Enter the number: "))
 c=0
 a=1

@@ -1,4 +1,4 @@
-str1 = "ss"
+str1 = "sasi"
 str2 =str1[::-1]
 
 if str1==str2:
@@ -8,9 +8,11 @@ else:
 
 print("----------------------------------------\n")
 
+'''str = reversed(str1)
+print(str)'''
 str3 = ''.join(reversed(str1))
-'''str4 = reversed(str1)
-print(str4)'''
+print("Reversed string is: ",str3)
+
 if str3 == str1:
     print("Yes")
 else:

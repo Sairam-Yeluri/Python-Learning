@@ -1,5 +1,3 @@
-print("Program to print ASCII Value of a character\n")
-
 char = input("Enter the character: ")
 
 if len(char)>1:

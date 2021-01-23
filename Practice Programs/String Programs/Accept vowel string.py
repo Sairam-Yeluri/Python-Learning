@@ -7,8 +7,8 @@ l = len(str)
 for i in str:
     if vowels.find(i) >=0:
         temp +=1
-#print(temp)
+print("Number of Vowels are: ",temp)
 if l == temp:
-    print("Yes")
+    print("It has some vowels")
 else:
-    print("No")
+    print("This is Vowel Free")

@@ -23,6 +23,12 @@ str1 = str.strip()  : Removes whitespaces
 
 s1 = set(str)  : convert to set
 
+from itertools import permutations 
+str = 'sai'
+str2 = permutations(str)
+for i in str2:
+    print("".join(i))
+
 from collections import OrderedDict 
 print("In Order line: ")
 print("".join(OrderedDict.fromkeys(str)))
@@ -38,3 +44,7 @@ print("With Order:",t)
 d.update({key: value})
 for i in d:
     print(i,d[i])
+
+
+
+

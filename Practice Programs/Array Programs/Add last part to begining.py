@@ -1,5 +1,3 @@
-print("Python Program to Split the array and add the last part to the begining")
-
 l = [10,20,30,40,50,60]
 n = 2
 p = len(l)

@@ -1,5 +1,3 @@
-print("\nPython program to check whether a number is Prime or not")
-
 num = int(input("Enter a number: "))
 
 for n in range(2,num):

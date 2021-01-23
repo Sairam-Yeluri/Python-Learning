@@ -1,5 +1,3 @@
-print("Python Program for n-th Fibonacci number\n")
-
 print("N Fibonacci numbers:")
 n = int(input("Enter number: "))
 a = 0

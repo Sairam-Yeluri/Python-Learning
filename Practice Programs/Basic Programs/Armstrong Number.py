@@ -1,5 +1,3 @@
-print("\nPython Program to check Armstrong Number\n")
-
 num = int(input("Enter number: "))
 temp = num
 sum = 0

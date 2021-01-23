@@ -1,5 +1,3 @@
-print("Python Program for factorial of a number")
-
 def factorial(n):
     result = n
     if n<0:

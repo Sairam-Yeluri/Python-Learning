@@ -1,5 +1,3 @@
-print("Python Program for Left array rotation\n")
-
 l = [10,20,30,40,50,60]
 v = 2  #Number of elements to shift
 

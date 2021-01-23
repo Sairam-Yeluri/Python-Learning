@@ -1,5 +1,3 @@
-print("\nPython program to print all Prime numbers in an Interval")
-
 num1 = int(input("Enter starting number: "))
 num2 = int(input("Enter ending number: "))
 

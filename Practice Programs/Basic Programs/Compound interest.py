@@ -1,5 +1,3 @@
-print("\nPython Program for compound interest")
-
 principle = int(input("Enter Principle amount: "))
 nyears = int(input("Enter number of years: "))
 rate = float(input("Enter rate: "))

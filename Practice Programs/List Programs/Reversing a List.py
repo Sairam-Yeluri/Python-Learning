@@ -1,10 +1,14 @@
-a = ["sai","ram","Yeluri"]
-l = len(a)
-a2 =[]
+lst = ["sai","ram","Yeluri"]
+l = len(lst)
+lst2 =[]
 for i in range(l-1,-1,-1):
-    a2.append(a[i])
+    lst2.append(lst[i])
 
-print(a2)
+print("Original list: ",lst)
+print("Reversed list: ",lst2)
 
-a.reverse()
-print(a)
+print("---------------------------")
+
+print("Original list: ",lst)
+lst.reverse()
+print("Reversed list: ",lst)

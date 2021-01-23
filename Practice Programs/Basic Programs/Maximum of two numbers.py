@@ -1,11 +1,8 @@
-
-print("Maximum of two numbers in Python")
-
-num1 = int(input("Enter first number:"))
-num2 = int(input("Enter first number:"))
+num1 = float(input("Enter first number:"))
+num2 = float(input("Enter first number:"))
 print("Max value is",max(num1,num2))
 
-print("method2")
+print("\n---------------------------------------\n")
 
 def max_val(num1,num2):
     if num1> num2:

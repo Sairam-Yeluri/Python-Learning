@@ -1,5 +1,3 @@
-print("\nPython Program for simple interest")
-
 principle = int(input("Enter Principle amount: "))
 time = int(input("Enter time: "))
 rate = float(input("Enter rate: "))

@@ -1,5 +1,3 @@
-print("Python Program for Sum of squares of first n natural numbers")
-
 num = int(input("Enter number: "))
 sum = 0
 

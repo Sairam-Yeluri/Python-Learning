@@ -1,24 +1,22 @@
 lst = [10,2,8,6,53,42,86,95,445,8,53,86,2]
+lst2 = lst.copy()
 st =set(lst)
-lst2 =list(st)
-print("Unique elements are: ",lst2)
+uni =list(st)
+print("Unique elements are: ",uni)
 
 
-for x in lst2:
+for x in uni:
     lst.remove(x)
 
 print("Duplicate elements are:",set(lst))
 
-print("or")
+print("---------------------------------------------")
 
-print("Duplicate elememts are:",set([i for i in lst if(lst.count(i)>0)]))
+print("List is: ",lst2)
+s = []
 
-'''p = {}
-for i in lst:
-    if(lst.count(i)>0):
-        p.append(i)
-print(p)
-'''
+for i in lst2:
+    if lst2.count(i)>1:
+        s.append(i)
 
-    
-
+print("Duplicate elements are:",list(set(s)))

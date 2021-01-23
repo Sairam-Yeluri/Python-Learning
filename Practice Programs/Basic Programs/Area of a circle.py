@@ -1,8 +1,6 @@
-print("\nPython Program for Program to find area of a circle")
-
-pi = 22/7
+PI = 22/7
 r = float(input("Enter radius of circle: "))
-area = pi * r**2
+area = PI * r**2
 
 print("area of circle with radius",r,"is",area)
 

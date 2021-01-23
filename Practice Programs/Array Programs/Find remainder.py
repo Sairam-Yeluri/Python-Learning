@@ -1,5 +1,3 @@
-print("Python Program for Find remainder of array multiplication divided by n")
-
 arr = [10,2,3,4,5,6]
 n = 50
 val = 1
