@@ -26,8 +26,10 @@ print(sum(l1))
 So we use math functions'''
 print('''Math Functions
 For math functions, we have to import math''')
+
 from math import *
 print("Math sum is",fsum(l1))
+#1.0
 
 num = 15.5368
 #To get uper and lower limits
@@ -41,6 +43,8 @@ print("Factorial",factorial(5))
 
 d,i = modf(num)
 print("modf function decimal is",d,"integer is",i)
+#num = 15.5368   d = 0.5368  i = 15
+
 
 print("log value",log(10))   #default is 'e'
 print("log value",log(10,2))
@@ -49,18 +53,3 @@ print("log 10 to the base  is",log2(10))
 
 print("Trignomentry",sin(radians(30)))    #Convert degrees to radians
 
-print("-----------------------------------------------")
-
-print('''Random Function
-for using random functions, we import random''')
-import random
-print("Random number(between 0 and 1)",random.random())
-
-l = [1,2,3,4,5,6]
-print("Random number from choice is",random.choice(l))
-
-print("Randint function",random.randint(10,100),"           (Prints a number in specified range)")
-
-print("Randrange function",random.randrange(1,3),"           (Prints a number in specified range except the last one)")
-
-print("Randon floating point number (uniform)",random.uniform(1,3))

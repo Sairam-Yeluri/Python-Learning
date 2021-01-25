@@ -45,6 +45,23 @@ d.update({key: value})
 for i in d:
     print(i,d[i])
 
+p = 3.5
+val = format(p,'0.2f')
+print(val)
+
+def chunk(lst,n):
+    for i in range(0,len(lst),n):
+        yield lst[i:i+n]
+k= list(chunk(str1,size))
+
+
+print values in list:
+#Single code print
+(print(i) for i in lst)
+
+#Single Code single line print
+[print(i, end =" ") for i in lst]
+
 
 
 

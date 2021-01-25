@@ -34,3 +34,10 @@ Array Right/Left Rotation
 Factorial
 Filter Method
 Least Frequent Character
+Find a string (Hackerrsnk)
+
+
+
+
+"**arg" importance:
+

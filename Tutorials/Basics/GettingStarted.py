@@ -53,7 +53,7 @@ print(oct(25),hex(25))
 print("----------------------------")
 
 from math import *
-k =m.sqrt(25)
+k =sqrt(25)
 print("Squareroot is: ",k)
 
 print("----------------------------")
@@ -104,6 +104,10 @@ num1 = 10
 num2 = 20
 
 print("num1 is {} and num2 is {}".format(num1,num2))
+
+p = 3.5
+val = format(p,'0.2f')
+print(val)
 
 print("----------------------------")
 
