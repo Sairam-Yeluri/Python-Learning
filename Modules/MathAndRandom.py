@@ -19,33 +19,35 @@ print("---------------------------------------")
 
 l1 = [0.1] * 10
 print(l1)
+#[0.1, 0.1, 0.1, 0.1, 0.1, 0.1, 0.1, 0.1, 0.1, 0.1]
 print(sum(l1))
-# But the expected output is 1
-#So we use math functions
+#0.999999999
+'''But the expected output is 1
+So we use math functions'''
 print('''Math Functions
 For math functions, we have to import math''')
-import math
-print("Math sum is",math.fsum(l1))
+from math import *
+print("Math sum is",fsum(l1))
 
 num = 15.5368
 #To get uper and lower limits
-print("Upper value of", num,"is",math.floor(num),"and lower value is",math.ceil(num))
+print("Upper value of", num,"is",floor(num),"and lower value is",ceil(num))
 
-print("Squareroot",math.sqrt(25))
+print("Squareroot",sqrt(25))
 
-print("Power",math.pow(10,2))
+print("Power",pow(10,2))
 
-print("Factorial",math.factorial(5))
+print("Factorial",factorial(5))
 
-d,i = math.modf(num)
+d,i = modf(num)
 print("modf function decimal is",d,"integer is",i)
 
-print("log value",math.log(10))   #default is 'e'
-print("log value",math.log(10,2))
+print("log value",log(10))   #default is 'e'
+print("log value",log(10,2))
 # The above function can be written as
-print("log 10 to the base  is",math.log2(10))
+print("log 10 to the base  is",log2(10))
 
-print("Trignomentry",math.sin(math.radians(30)))    #Convert degrees to radians
+print("Trignomentry",sin(radians(30)))    #Convert degrees to radians
 
 print("-----------------------------------------------")
 
