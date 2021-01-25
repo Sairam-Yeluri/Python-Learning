@@ -42,7 +42,7 @@ print("This is Tupple:",m," and Id is",id(m))
 
 print("-------------------------------------------------------------------")
 
-n = { "Name" : "Purna" , "Age" : 24 }  #Dictionary/Hashmap. saved as key and value. We cant add any value to this
+n = { "Name" : "Purna" , "Age" : 24 }  #Dictionary/Hashmap. saved as key and value. We can add any value to this
 print("This is Dictionary/Hashmap:", n)
 
 print("-------------------------------------------------------------------")
@@ -52,7 +52,7 @@ print("This is a set:", o," and Id is",id(o))
 
 print("-------------------------------------------------------------------")
 
-import array
+from array import * 
 arr1 = array.array("i",[1,2,-3,4,5])  # 'i' (integer) accepts both positive and negative values 
 
 print("Array is: ",arr1)

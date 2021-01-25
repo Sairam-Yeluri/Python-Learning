@@ -1,13 +1,16 @@
+'''
 import array #or 
+arr1 = array.array("i",[1,2,-3,4,5])  # 'i' (integer) accepts both positive and negative values 
+'''
 from array import *
 
-arr1 = array.array("i",[1,2,-3,4,5])  # 'i' (integer) accepts both positive and negative values 
-arr2 = array.array("I",[1,2,3,4,5]) # 'I' wont accept negative value
+arr1 = array("i",[1,2,-3,4,5])  # 'i' (integer) accepts both positive and negative values 
+arr2 = array("I",[1,2,3,4,5]) # 'I' wont accept negative value
 
-arr3 = array.array("f",[2,3,4.1,-5.1])
-arr4 = array.array("d",[2,3,4.1,-5.1])
+arr3 = array("f",[2,3,4.1,-5.1])
+arr4 = array("d",[2,3,4.1,-5.1])
 
-arr5 = array.array("u",['a','b','c','d','e'])
+arr5 = array("u",['a','b','c','d','e'])
 
 print("Integer",arr1)
 print("Non negative integer",arr2)

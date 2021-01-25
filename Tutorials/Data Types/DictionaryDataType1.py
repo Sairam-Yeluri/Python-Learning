@@ -37,14 +37,14 @@ print("-------------------------------------------")
 
 print("Iteratin values")
 for x in d2:
-    print(x,"and",d2[x])    #we get key and values.
+    print(x,":",d2[x])    #we get key and values.
 
 print("-------------------------------------------")
 
 # KEY VALUE and ITEMS
-print("Keys are",d2.keys())
-print("Values are",d2.values())
-print("Items are",d2.items())
+print(d2.keys())
+print(d2.values())
+print(d2.items()) #([key,value])
 
 print("-------------------------------------------")
 

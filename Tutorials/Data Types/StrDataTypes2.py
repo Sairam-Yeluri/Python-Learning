@@ -37,6 +37,7 @@ str3 = "Python simple string abcd dbac ABCD"
 table =str.maketrans(str1,str2)
 result = str3.translate(table)
 print(result)   #abcd is replaced by 1234
+#Python simple string 1234 4213 ABCD
 
 print("-------------------------------------------------------------------")
 
@@ -44,11 +45,18 @@ print("-------------------------------------------------------------------")
 string1 = "yeluri,purna,sai,ram,sai"
 print("String is:",string1)
 print("sai" in string1)
+#True
 print("Existing value returns:",string1.index("sai")) #only gives 1st reference position
-#print(string1.index("Sai")) throws error
-print("Missing value returns:",string1.find("Sai"))  #this returns -1
-print("Reverse value of existing returns:",string1.rfind("sai"))  #this returns from reverse direction
+#13     print(string1.index("Sai")) throws error
+
+print("Missing value returns:",string1.find("Sai"))
+#this returns -1
+
+print("Reverse value of existing returns:",string1.rfind("sai"))  
+#21   this returns position from reverse direction
+
 print("Reverse value of missing returns:",string1.rfind("Sai"))
+#this returns -1
 
 print("-------------------------------------------------------------------")
 
@@ -74,5 +82,8 @@ print("-------------------------------------------------------------------")
 reg1 = "yeluri,purna,sai,ram"
 reg2 = reg1.replace("sai","Saai")
 print(reg2)
+#yeluri,purna,Saai,ram
+
 reg3 = reg1.replace("a","aa")
 print(reg3)
+#yeluri,purnaa,saai,raam

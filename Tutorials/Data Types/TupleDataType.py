@@ -1,18 +1,21 @@
 ''' tuple is immutable and ordered
 se we cant add/delete values
 But it supports indexing and slicing '''
+
 t = (10,20,20,30,40,40,50) 
 print("Tuple :",t)  #INDEXING and SLICING
 
 print("---------------------------------")
 
-l=t.index(20)
+l=t.index(30)
 print("Index of 20 is:",l)
+#Index of 30 is: 2
 
 print("---------------------------------")
 
 m = t.count(20)
 print("Count of 20 is:",m)
+#Count of 20 is: 2
 
 print("---------------------------------")
 

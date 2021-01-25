@@ -1,6 +1,4 @@
-str = "SairamYeluri"
-d = []
-for i in str:
-   if str.count(i) > 1:
-        d.append(i)
-print("".join(set(d)))
+from array import *
+
+arr1 = array("i",[1,2,-3,4,5])
+print(arr1)

@@ -73,10 +73,10 @@ print("-------------------------------------------------------------------")
 #MembershipOperators in, not in
 
 l = [10,20,30,40,50]
-print(30 in l)
-print(90 in l)
+print(30 in l)  #True
+print(90 in l)  #False
 
 s= "Sairam Yeluri"
-print("s" in s)
-print("Sairam" in s)
-print("t" in s)
+print("s" in s)     #False
+print("Sairam" in s)    #True
+print("t" in s)     #False

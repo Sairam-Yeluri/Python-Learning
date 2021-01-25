@@ -1,10 +1,12 @@
-#UPDATE and DELETE operations
+'UPDATE and DELETE operations'
+
 l = [10,80,20,30,30,40,50]
 
 #    update
 print("Actual list is:",l)
 l[1] = 20
 print("Updated list is:",l)
+#[10, 20, 20, 30, 30, 40, 50]
 
 print("-----------------------------------------")
 
@@ -48,16 +50,18 @@ print("sort function")
 print("Orginal list is:",l2)
 l2.sort()
 print("Sorted list is:",l2)
-print(l2.sort())    #nothing Returns
+'print(l2.sort())    nothing Returns'
 
 print("--------------------------")
 
 print("reverse function")
 l2.reverse()
 print("Reverse list:",l2)
-print(l2.reverse())     #nothing Returns
-''' k= l2.sort() and m=l2.reverse() and printing k,m wont work as they wont return anything
-to return, we use sorted function'''
+'''
+print(l2.reverse())     nothing Returns
+ k= l2.sort() and m=l2.reverse() and printing k,m wont work as they wont return anything
+to return, we use sorted function
+'''
 
 print("--------------------------")
 
@@ -71,6 +75,7 @@ print("--------------------------")
 
 print("index function")
 print("Index is",l4.index(76))
+#Index is 3 (position)
 
 print("--------------------------")
 
@@ -81,6 +86,7 @@ print("--------------------------")
 
 print("concatinate function")
 print("concatinated is is",l3+l4)
+
 '''This wont modift l3 or l4 like extend and append.
 Here we can assign l3+l4 to l5'''
 

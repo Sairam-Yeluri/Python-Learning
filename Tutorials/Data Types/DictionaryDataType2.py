@@ -1,4 +1,3 @@
-# Creating a DICTIONARY
 print("CREATING DICTIONARY")
 l1 = [1,2,3,4,5]
 l2 = [1,4,9,16,25]
@@ -8,8 +7,9 @@ print(d1)
 print("-----------------------------------------")
 
 l = [1,2,5]
-d2 =dict.fromkeys(l,20)     #20 is assigned. If not specfied, null will be assigned
+d2 =dict.fromkeys(l,20)     #20 is assigned to all. If not specfied, null will be assigned
 print(d2)
+#{1: 20, 2: 20, 5: 20}
 
 print("-----------------------------------------")
 
@@ -18,6 +18,7 @@ d3 = {1:1,2:4,3:9}
 d4 = {4:16,5:25}
 d3.update(d4)
 print("Updated Dictionary is:",d3)
+#{1: 1, 2: 4, 3: 9, 4: 16, 5: 25}
 
 print("-----------------------------------------")
 
@@ -29,4 +30,4 @@ print("List is",d3,"and poped item is",r2,"(only value)")
 d3.clear()
 print(d3)
 del d3
-print(d3)   #throws error because mem location of d3 is removed
+#print(d3)   throws error because mem location of d3 is removed

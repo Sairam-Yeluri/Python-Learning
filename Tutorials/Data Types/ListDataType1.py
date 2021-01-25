@@ -3,7 +3,7 @@ They are ordered data structures
 we can store any type of data in a string
 '''
 l = [10,20,30,"fourty", [50,"Sixty"]]
-print('''List:"''',l,'''" type is:''',type(l))
+print("List: {} \nType is: {}".format(l,type(l)))
 
 print("--------------------------------------------------------")
 
@@ -25,10 +25,10 @@ print("Both Ids are same")
 print("--------------------------------------------------------")
 
 l2 = [10,20,30,40,50,60]
-print("Even Values")
+print("Even position Values")
 for value in l2[::2]:
     print(value)
-print("Odd Values")
+print("Odd position Values")
 for value in l2[::-2]:
     print(value)
 
@@ -39,6 +39,7 @@ l3 = [10,20,30]
 print("Before appending:",l3)
 l3.append([40,50])
 print("After appending:",l3)
+#[10, 20, 30, [40, 50]]
 
 print("--------------------------------------------------------")
 
@@ -46,10 +47,10 @@ print("--------------------------------------------------------")
 print("Before Extending list is:",l3)
 l3.extend(["Fifty","Sixty"])
 print("Extended list is:",l3)
+#[10, 20, 30, [40, 50], 'Fifty', 'Sixty']
 
 print("--------------------------------------------------------")
 
-#@@@@@@@@@@@@@@@@@@@@@@@@@@XXXXXXXXXXXXXXX@@@@@@@@@@@@@@@@@@@@#
 print("@@@@@@@@@@@@Append and Extend Examples@@@@@@@@@@")
 print("")
 
@@ -60,6 +61,8 @@ m1.extend([40,50])
 print("Adding values:",m1)
 m1.extend("sai")  #          IMPORTANT
 print("Adding string values:",m1)
+#[10, 20, 30, 40, 50, 's', 'a', 'i']
+
 '''
 m1.extend(40)
 m1.extend(40,50)
@@ -75,8 +78,11 @@ m2.append(40)
 print("Adding a value:",m2)
 m2.append([50,60])
 print("Adding a list:",m2)
+#[10, 20, 30, 40, [50, 60]]
 m2.append(["sai","ram"])
 print("Adding another list:",m2)
+#[10, 20, 30, 40, [50, 60], ['sai', 'ram']]
+
 '''
 m2.append(60,70)
 m2.append([60],[70])
@@ -98,6 +104,7 @@ p2 =p1
 print("list p1:",p1,"id is",id(p1))
 print("list p2:",p2,"id is",id(p2))
 print("Both has same ids")
+
 p2.append(40)
 print("After append")
 print("list p1:",p1,"id is",id(p1))
@@ -109,6 +116,7 @@ p3 =p1.copy()
 print("list p1:",p1,"id is",id(p1))
 print("list p3:",p3,"id is",id(p3))
 print("Both has same ids")
+
 p3.append(50)
 print("After Copy and append")
 print("list p1:",p1,"id is",id(p1))
