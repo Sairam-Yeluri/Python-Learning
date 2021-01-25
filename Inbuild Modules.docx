@@ -1,0 +1,73 @@
+String Methods
+capitalize()	Converts the first character to upper case
+count()		Returns the number of times a specified value occurs in a string
+endswith()	Returns true if the string ends with the specified value
+find()		Searches the string for a specified value and returns the position if found (-1 if not)
+format()	Formats specified values in a string (“{}”.format(a))
+isalnum()	Returns True if all characters in the string are alphanumeric
+isalpha()	Returns True if all characters in the string are in the alphabet
+isdecimal()	Returns True if all characters in the string are decimals
+islower()	Returns True if all characters in the string are lower case
+isnumeric()	Returns True if all characters in the string are numeric
+isprintable()	Returns True if all characters in the string are printable (\n or \t returns false)
+isspace()	Returns True if all characters in the string are whitespaces
+isupper()	Returns True if all characters in the string are upper case
+join()		Joins the elements of the string (“#”.join(str)   Joins them with #)
+lower()		Converts a string into lower case
+maketrans()	Returns a translation table to be used in translations
+partition()	Returns a tuple where the string is parted into three parts
+replace()	Returns string where a specified value is replaced with other value (str.replace(‘a’,’b’))
+rfind(‘a’)	Searches the string for a specified value and returns last position of where it was found
+split()		Splits the string at the specified separator, and returns a list
+splitlines()	Splits the string at line breaks and returns a list (\n or enter will be splitted)
+startswith()	Returns true if the string starts with the specified value
+strip(‘a’)	Returns a trimmed version of the string (removes beginning and tailing ‘a’s)
+swapcase()	Swaps cases, lower case becomes upper case and vice versa
+title()		Converts the first character of each word to upper case (after number or symbol)
+translate()	Returns a translated string
+upper()		Converts a string into upper case
+List/Array Methods
+append()	Adds an element/list at the end of the list
+clear()		Removes all the elements from the list
+copy()		Returns a copy of the list
+count()		Returns the number of elements with the specified value
+extend()	Add the elements of a list to the end of the current list (str1.extend(str2)) no need of x=)
+index()		Returns the position of the first element in list
+insert(3,’abc’)	Adds an element at the specified position (insert abc at 3rd position)
+pop(3)		Removes the element at the specified position
+remove(‘abc’)	Removes the first item with the specified value (removes ‘abc’)
+reverse()	Reverses the order of the list (list.reverse())
+sort()		Sorts the list
+
+
+Dictionary Methods
+clear()		Removes all the elements from the dictionary
+copy()		Returns a copy of the dictionary
+fromkeys(x,y)	Returns a dictionary with the specified keys and value (x = [x1,x2]   res = { x1:y , x2:y } )    
+get(key)	Returns the value of the specified key
+items()		Returns a list containing a tuple for each key value pair
+keys()		Returns a list containing the dictionary's keys
+pop(key)	Removes the element with the specified key
+popitem()	Removes the last item
+update()	Updates the dictionary with the specified key-value pairs   (update({key:value}))
+values()		Returns a list of all the values in the dictionary
+
+
+Tuple Methods
+count()	Returns the number of times a specified value occurs in a tuple
+index()	Searches the tuple for a specified value and returns the position of where it was found
+
+Set Methods
+add()		Adds an element to the set
+clear()		Removes all the elements from the set
+copy()		Returns a copy of the set
+difference()	Returns a set containing the difference between two or more sets (returns 1st set)
+discard(item)	Remove the specified item
+intersection()	Returns a set, that is the intersection of two other sets
+issubset()	Returns whether another set contains this set or not
+issuperset()	Returns whether this set contains another set or not
+pop()		Removes an element from the set (last item)
+remove()	Removes the specified element (specified item)
+symmetric_difference()	Returns a set with the symmetric differences of two sets
+union()		Return a set containing the union of sets
+update()	Update the set with the union of this set and others   (x.update(y))
