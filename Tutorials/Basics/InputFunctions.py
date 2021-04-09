@@ -36,6 +36,16 @@ print("Character print in 2nd way",ch2)
 
 print("-------------------------------------------------------------------")
 
+'''Take a List as input'''
+
+lst=[]
+lst =map(int,input().split())
+lst2=list(lst)
+print(lst)
+print(lst2)
+
+print("-------------------------------------------------------------------")
+
 #Expression value
 value = eval(input('''Enter Expression like "2+3-1":'''))
 print("Expression result is",value)
