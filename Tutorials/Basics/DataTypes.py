@@ -53,7 +53,7 @@ print("This is a set:", o," and Id is",id(o))
 print("-------------------------------------------------------------------")
 
 from array import * 
-arr1 = array.array("i",[1,2,-3,4,5])  # 'i' (integer) accepts both positive and negative values 
+arr1 = array("i",[1,2,-3,4,5])  # 'i' (integer) accepts both positive and negative values 
 
 print("Array is: ",arr1)
 
