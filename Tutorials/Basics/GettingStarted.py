@@ -6,6 +6,19 @@ print("RAW STRING:",r"c:\Sairam Yeluri\name")
 
 print("----------------------------")
 
+a = ('apple', 'banana', 'cherry')
+b = "Hello World"
+c = 33
+
+x = type(a)
+y = type(b)
+z = type(c)
+
+print(x)
+print(y)
+print(z)
+
+print("----------------------------")
 
 print(100,200)
 print("hii")
