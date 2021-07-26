@@ -11,7 +11,7 @@ print("Random number from choice is",choice(l))
 # any random in l
 
 print("Randint function",randint(10,100))
-#Prints a number in specified range
+#Prints a number in specified range (as a 6 sided die)
 
 print("Randrange function",randrange(1,3))
 #Prints a number in specified range except the last one
@@ -22,3 +22,8 @@ print("Randon floating point number (uniform)",uniform(1,3))
 lst = ['a','b','c','d']
 cho = choice(lst)
 print("Random Choice value is: ",cho)
+
+lst = ['a','b','c','d']
+code = choices(lst,k=6)
+print(code)
+#randomly choose values from list 
