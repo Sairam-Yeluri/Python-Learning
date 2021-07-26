@@ -33,6 +33,9 @@ print(code3)
 
 nums = list(range(1,10))
 print(nums)
+
+print(triangular(0, 10, 2))
+#triangular(min, max, mode)
 shuffle(nums)
 print(nums)
 
