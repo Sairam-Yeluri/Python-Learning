@@ -41,6 +41,10 @@ print("Power",pow(10,2))
 
 print("Factorial",factorial(5))
 
+print(" GCD of two number 60 and 48 is ", gcd(60, 48))      #only in some compilers
+
+
+
 d,i = modf(num)
 print("modf function decimal is",d,"integer is",i)
 #num = 15.5368   d = 0.5368  i = 15
